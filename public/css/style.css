@@ -1,0 +1,276 @@
+/* barra de navegacion */
+
+.form-control {
+    border-color: #d6d6d6;
+  }
+  
+  .form-control:focus {
+    border-color: #d6d6d6;
+    box-shadow: 0.25rem #d6d6d6;
+  }
+
+.form-control {
+  margin-top: 0 !important;
+}
+  .btn {
+    color: #ff536a;
+    background-color: #e2e2e2;
+    border-color: #ff536a;
+  }
+  
+  .btn:hover {
+    background-color: #d6d6d6;
+    border-color: #d6d6d6;
+  }
+  
+  /* body de la pagina */
+  body {
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  h2 , #h3-videos, .correo-message{
+    text-align: center;
+  }
+  /* menu deslizante del inicio */
+  .slider {
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .slides {
+    width: 650%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slides input {
+    display: none;
+  }
+  
+  .slide {
+    width: 20%;
+    transition: 1s;
+  }
+  
+  .slide img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navigation-manual {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 5px;
+  }
+  
+  .manual-btn:hover {
+    background: #545454;
+  }
+  
+  #radio1:checked~.first {
+    margin-left: 0;
+  }
+  
+  #radio2:checked~.first {
+    margin-left: -20%;
+  }
+  
+  #radio3:checked~.first {
+    margin-left: -40%;
+  }
+  
+  #radio4:checked~.first {
+    margin-left: -60%;
+  }
+  
+  #correo-message {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  /* linea divisora */
+  hr {
+    border: none;
+    height: 5px;
+    background-color: #000;
+    margin: 20px;
+  }
+  #logo{
+  width: 70px;
+  height: 70px;
+  }
+   /* iconos de la barra de nav*/
+  
+  .me-2{
+    height: 16px;
+  }
+  .titleproducts{
+    margin-top: 10px;
+  }
+  
+    /* imagenes y precios*/
+  
+  #title{
+      margin-top: 100px;
+  }
+  #asidetitle{
+    margin-top: 110px;
+  }
+  .image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .image-item img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  h4 {
+    font-size: 0.7em;
+  }
+  
+  /* los aside */
+  
+  aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #bfbfbf;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .channel-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .channel-image {
+    display: block;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .channel-details {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .embed-responsive {
+    margin-bottom: 20px;
+  }
+  
+  .text-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  #cancel-buy {
+    font-size: 1em;
+  }
+  
+  /* Estilos del footer */
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 10px 0;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.25em;
+  }
+  
+  .footer-social a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.875em;
+  }
