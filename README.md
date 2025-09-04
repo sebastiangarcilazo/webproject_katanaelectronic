@@ -1,4 +1,4 @@
-# 💻 Katana Electronic - PC Components Store
+# Katana Electronic - PC Components Store
 
 ## Descripción (Español)
 **Katana Electronic** es un sistema web desarrollado en **Laravel** para la gestión y venta de componentes de PC (monitores, hardware, periféricos, etc.).  
