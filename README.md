@@ -28,39 +28,7 @@ El sistema implementa **roles de cliente y administrador**, cada uno con funcion
 - **Frontend**: Blade Templates, Bootstrap/TailwindCSS (dependiendo de implementación)  
 - **Servidor local**: Laragon / XAMPP / similar  
 
----
-
-## Description (English)
-**Katana Electronic** is a **Laravel-based web system** designed for managing and selling PC components (monitors, hardware, peripherals, etc.).  
-It features sections for **products, news, help, contact**, and a **gallery with search functionality**.  
-The platform implements **client and administrator roles**, each with specific capabilities.
-
-### Main Features
-#### Client
-- User registration and login.  
-- Browse product catalog with search bar.  
-- Read latest news.  
-- Submit contact form.  
-- Add products to shopping cart.  
-- Logout.
-
-#### Administrator
-- Private management panel.  
-- View registered clients and received messages.  
-- Add, edit, and delete products.  
-- Add, edit, and delete news.  
-- Logout.
-
-### Technologies
-- **Framework**: Laravel 10+  
-- **Language**: PHP 8+  
-- **Database**: MySQL/MariaDB  
-- **Frontend**: Blade Templates, Bootstrap/TailwindCSS (depending on implementation)  
-- **Local server**: Laragon / XAMPP / similar  
-
----
-
-## Instalación / Installation
+## Instalación
 
 ### Español
 1. Clonar el repositorio:
@@ -92,8 +60,44 @@ The platform implements **client and administrator roles**, each with specific c
    ```
    http://localhost:8000
    ```
+---
 
-### English
+## Estado del proyecto 
+- Proyecto académico con funcionalidades completas de gestión y tienda online.  
+- Listo para presentación, demostración y mejora continua.  
+
+## Description (English)
+**Katana Electronic** is a **Laravel-based web system** designed for managing and selling PC components (monitors, hardware, peripherals, etc.).  
+It features sections for **products, news, help, contact**, and a **gallery with search functionality**.  
+The platform implements **client and administrator roles**, each with specific capabilities.
+
+### Main Features
+#### Client
+- User registration and login.  
+- Browse product catalog with search bar.  
+- Read latest news.  
+- Submit contact form.  
+- Add products to shopping cart.  
+- Logout.
+
+#### Administrator
+- Private management panel.  
+- View registered clients and received messages.  
+- Add, edit, and delete products.  
+- Add, edit, and delete news.  
+- Logout.
+
+### Technologies
+- **Framework**: Laravel 10+  
+- **Language**: PHP 8+  
+- **Database**: MySQL/MariaDB  
+- **Frontend**: Blade Templates, Bootstrap/TailwindCSS (depending on implementation)  
+- **Local server**: Laragon / XAMPP / similar  
+
+---
+
+## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/sebastiangarcilazo/webproject_katanaelectronic.git
@@ -126,29 +130,41 @@ The platform implements **client and administrator roles**, each with specific c
 
 ---
 
-## Screenshots / Capturas
+## 📷 Screenshots / Capturas
 
-```markdown
-<img width="1855" height="917" alt="image" src="https://github.com/user-attachments/assets/4348b2bd-7d28-467f-a460-f6c3d3e6e92d" />
-<img width="1853" height="907" alt="2" src="ht<i<img width="1837" height="916" alt="4" src="https://github.com/user-attachments/assets/43433f57-1b11-4434-ab13-3ecf6b8551c6" />
-mg width="1853" height="916" alt="3" src="https://gith<img width="1873" height="892" alt="5" src="https://github.com/user-attachments/assets/e7bc7a55-981f-421a-ad66-e8c7482cf652" />
-ub.com/user-attachments/assets/50deae3f-e201-4887-957<img width="1856" height="897" alt="09" src="https://github.com/user-attachments/assets/49a0c346-ff21-4fbe-9a0e-03a7c1d475e4" />
-8-<img width="1844" height="897" alt="7" src="https://github.com/user-attachments/assets/f4ba4576-f55d-4d7d-bc82-30dc8b3c5fba" />
-d6c837e2cf7a" />
-tps://github.com/user-attachments/assets/53da0d61-f2e3-4cb1-a492-0fc4cbc47721" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4348b2bd-7d28-467f-a460-f6c3d3e6e92d" alt="Home" width="800"/>
+</p>
 
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/43433f57-1b11-4434-ab13-3ecf6b8551c6" alt="Panel de productos" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e7bc7a55-981f-421a-ad66-e8c7482cf652" alt="Panel de noticias" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/49a0c346-ff21-4fbe-9a0e-03a7c1d475e4" alt="Carrito" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f4ba4576-f55d-4d7d-bc82-30dc8b3c5fba" alt="Gestión de clientes" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/53da0d61-f2e3-4cb1-a492-0fc4cbc47721" alt="Vista adicional" width="800"/>
+</p>
 
 ---
 
-## Estado del proyecto / Project Status
-- 🎓 Proyecto académico con funcionalidades completas de gestión y tienda online.  
-- Listo para presentación, demostración y mejora continua.  
+## Project Status
+- Academic project with complete functionalities for management and online store.  
+- Ready for presentation, demonstration, and continuous improvement.
 
 ---
-
 ## Autor / Author
 **Sebastián Garcilazo**  
-- 📧 [sebastian.garcilazo.dev@gmail.com](mailto:sebastian.garcilazo.dev@gmail.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/) *(añadir tu perfil)*  
-- 💻 [GitHub](https://github.com/TU-USUARIO)  
+- [sebastian.garcilazo.dev@gmail.com](mailto:sebastian.garcilazo.dev@gmail.com)  
+- [LinkedIn](https://www.linkedin.com/)  
+- [GitHub](https://github.com/sebastiangarcilazo)  
