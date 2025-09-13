@@ -48,7 +48,7 @@ El sistema implementa **roles de cliente y administrador**, cada uno con funcion
    ```bash
    php artisan key:generate
    ```
-5. Ejecutar migraciones (y seeders si aplica):
+5. Ejecutar migraciones y seeders:
    ```bash
    php artisan migrate --seed
    ```
@@ -115,7 +115,7 @@ The platform implements **client and administrator roles**, each with specific c
    ```bash
    php artisan key:generate
    ```
-5. Run migrations (and seeders if any):
+5. Run migrations and seeders:
    ```bash
    php artisan migrate --seed
    ```
